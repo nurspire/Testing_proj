@@ -1,0 +1,203 @@
+/* General Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Form and Labels */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input fields */
+.input, .input-file, .input-textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Textarea Styling */
+.input-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Input file Styling */
+.input-file {
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button */
+.btn-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+/* Container for the entire page */
+.product-display-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Page heading */
+.page-heading {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Container for product cards */
+.product-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Product card styling */
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on card */
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image styling */
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Product details container */
+.product-details {
+  padding: 20px;
+}
+
+/* Product name */
+.product-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Product description */
+.product-description {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Product footer with price and actions */
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Product price */
+.product-price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #4CAF50;
+}
+
+/* Container for the action buttons */
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styles */
+.btn-update, .btn-delete {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Update button */
+.btn-update {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: #45a049;
+}
+
+/* Delete button */
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #e53935;
+}
+
